@@ -1,6 +1,6 @@
 Vagrant VM for Graphite
 =======================
-A quick Vagrant setup for a running Graphite installation on Debian Squeeze 32-bit.
+A quick Vagrant setup for a running Graphite installation on a Debian Squeeze 32-bit VM.
 
 Installation
 ------------------------------------------
@@ -18,3 +18,4 @@ Credits
 ------------------
 - [OpsCode Python/pip/virtualenv Cookbook](http://community.opscode.com/cookbooks/python)
 - [Graphite](http://graphite.wikidot.com/) itself
+- the Linux Racker blog: http://linuxracker.com/2012/03/31/setting-up-graphite-server-on-debian-squeeze/
