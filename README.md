@@ -1,6 +1,6 @@
-Vagrant VM for Graphite
+Vagrant VM for Graphite and StatsD
 =======================
-A quick Vagrant setup for a running Graphite installation on a Debian Squeeze 32-bit VM.
+A quick Vagrant setup for a running Graphite and StatsD installation on a Debian Squeeze 32-bit VM.
 
 Installation
 ------------------------------------------
@@ -12,6 +12,7 @@ Usage
 --------------------------------------------------------
 - To spin up the VM, `cd` to the project's root, and do `vagrant up`
 - After the VM is up, `vagrant ssh` to ssh into it.
+- From the local machine, view the Graphite web interface by browsing to `http://localhost:8080`.
 - You can later shut it down by doing `vagrant halt`, or completely destroy it using `vagrant destroy`.
 
 Credits
