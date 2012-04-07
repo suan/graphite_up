@@ -16,6 +16,6 @@ Usage
 
 Credits
 ------------------
-- [OpsCode Python/pip/virtualenv Cookbook](http://community.opscode.com/cookbooks/python)
+- OpsCode for their various cookbooks
 - [Graphite](http://graphite.wikidot.com/) itself
 - the Linux Racker blog: http://linuxracker.com/2012/03/31/setting-up-graphite-server-on-debian-squeeze/
