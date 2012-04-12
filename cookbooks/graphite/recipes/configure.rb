@@ -12,9 +12,8 @@ execute 'create carbon.conf' do
   not_if 'test -f /opt/graphite/conf/carbon.conf'
 end
 
-execute 'create storage-schemas.conf' do
-  command 'cp /opt/graphite/conf/storage-schemas.conf.example /opt/graphite/conf/storage-schemas.conf'
-  not_if 'test -f /opt/graphite/conf/storage-schemas.conf'
+cookbook_file '/opt/graphite/conf/storage-schemas.conf' do
+  source 'storage-schemas.conf'
 end
 
 execute 'setup Graphite django DB' do
