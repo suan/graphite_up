@@ -17,7 +17,8 @@ cookbook_file '/opt/graphite/conf/storage-schemas.conf' do
 end
 
 execute 'setup Graphite django DB' do
-  command 'cd /opt/graphite/webapp/graphite && sudo python manage.py syncdb'
+  command 'python manage.py syncdb --noinput'
+  cwd '/opt/graphite/webapp/graphite'
 end
 
 execute 'set graphite/storage directory perms' do
