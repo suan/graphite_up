@@ -2,6 +2,8 @@ Vagrant VM for Graphite and StatsD
 =======================
 A quick Vagrant setup for a running Graphite and StatsD installation on a Debian Squeeze 32-bit VM.
 
+Various Chef cookbooks here might also be useful on their own, though they are not very polished.
+
 Installation
 ------------------------------------------
 - virtual box needs to be installed: https://www.virtualbox.org/wiki/Downloads
