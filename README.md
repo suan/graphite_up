@@ -1,6 +1,6 @@
-Vagrant VM for Graphite and StatsD
+Vagrant VM for Graphite + StatsD + Diamond
 =======================
-A quick Vagrant setup for a running Graphite and StatsD installation on a Debian Squeeze 32-bit VM via Chef.
+A quick Vagrant setup for a running Graphite, StatsD, and Diamond installation on a Debian Squeeze 32-bit VM via Chef.
 
 Various Chef cookbooks here might also be useful on their own, though they are not very polished.
 
