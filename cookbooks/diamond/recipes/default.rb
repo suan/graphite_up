@@ -1,4 +1,5 @@
 require_recipe 'python'
+package 'python-configobj'
 
 cookbook_file '/tmp/diamond_2.0.0_all.deb' do
   source 'diamond_2.0.0_all.deb'
