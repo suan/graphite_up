@@ -15,5 +15,6 @@ Vagrant::Config.run do |config|
     chef.add_recipe 'graphite'
     chef.add_recipe 'statsd'
     chef.add_recipe 'diamond'
+    chef.add_recipe 'psycopg2'
    end
 end
