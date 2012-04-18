@@ -14,5 +14,6 @@ Vagrant::Config.run do |config|
     chef.add_recipe 'timezone'
     chef.add_recipe 'graphite'
     chef.add_recipe 'statsd'
+    chef.add_recipe 'diamond'
    end
 end
