@@ -7,7 +7,7 @@ Various Chef cookbooks here might also be useful on their own, though they are n
 Installation
 ------------------------------------------
 - virtual box needs to be installed: https://www.virtualbox.org/wiki/Downloads
-- Vagrant too: `[sudo] gem install vagrant`
+- Vagrant too: http://downloads.vagrantup.com/
 - Download or clone this project
 
 Usage
